@@ -1,0 +1,11 @@
+# Requirements for IMAP Email Downloader and mbox Converter
+# Standard library dependencies are not listed as they are included with Python
+
+# Email handling libraries
+email-validator>=1.1.3
+
+# Date parsing (for handling various email date formats)
+python-dateutil>=2.8.2
+
+# Progress bar (optional but recommended for better UX)
+tqdm>=4.62.3
